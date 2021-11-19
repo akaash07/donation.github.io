@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <section class="contact">
+      <div class="content">
+        <h2>Contact Us</h2>
+
+      </div>
+      <div class="container">
+        <div class="contact-info">
+          <div class="box">
+            <div class="icon"><i class="fa fa-map-marker" ></i>  </div>
+            <div class="text">
+             <h3>Address</h3>
+             <p>
+                 Civil Lines, Roorkee, Uttrakhand 247667, IN
+            </p>
+            </div>
+
+          </div>
+
+          <div class="box">
+            <div class="icon"> <i class="fa fa-phone" ></i> </div>
+            <div class="text">
+             <h3>Phone</h3>
+             <p>
+                +91 9536150917
+            </p>
+            </div>
+
+          </div>
+
+          <div class="box">
+            <div class="icon"> <i class="fa fa-envelope"></i> </div>
+            <div class="text">
+             <h3>Email</h3>
+             <p>
+                 skumarrkt1999@gmail.com
+            </p>
+            </div>
+
+          </div>
+
+        </div>
+
+         <div class="contact-form">
+             <h2>Send Message</h2>
+             <div class="inputBox">
+                 <input  type="text" name="name" placeholder="Enter your name" required>
+             </div>
+
+             <div class="inputBox">
+                 <input type="text" name="email" placeholder="Enter your email" required>
+             </div>
+
+             <div class="inputBox">
+                 <input type="text" name="subject" placeholder="Enter your subject" >
+             </div>
+             <div class="inputBox">
+                 <textarea  name="message" placeholder="Message" required></textarea>
+             </div>
+
+             <div class="inputBox">
+                   <button  class="btn btn-info" onclick="sent()"  >Send</button>
+                   <script >
+                     function sent(){
+                       alert("Thank you for contacting us..! \n  Message sent...");
+                      
+                     }
+
+                   </script>
+                  &nbsp
+                  <a href="index.html">  <button id="btn" class="btn btn-outline-primary" >Home</button></a>
+
+             </div>
+
+         </div>
+
+      </div>
+    </section>
+
+  </body>
+</html>
